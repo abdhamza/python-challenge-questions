@@ -1,28 +1,23 @@
-# 22) Write a program that converts a temperature from Fahrenheit to Celsius. 
-# Classify the temperature as 'Freezing' (< 0°C), 'Cold' (0-15°C), 'Moderate' (15-25°C), 'Warm' (25-35°C), and 'Hot' (>35°C) 
-# using only if-else statements.
+# 22) Using only if-else statements tWrite a Python program that categorizes 
+# a student's mark (0-100) into 'A' (90-100), 'B' (80-89), 'C' (70-79), 
+# 'D' (60-69), and 'F' (below 60) using only if-else statements.
 
+# Input: Student's mark
+mark = float(input("Enter the student's mark (0-100): "))
 
-# Input: Temperature in Fahrenheit
-temperature_fahrenheit = float(input("Enter the temperature in Fahrenheit: "))
-
-# Convert Fahrenheit to Celsius
-temperature_celsius = (temperature_fahrenheit - 32) * 5 / 9
-
-# Classification using only if-else statements
-if temperature_celsius < 0:
-    classification = "Freezing"
+if mark >= 90:
+    grade = "A"
 else:
-    if temperature_celsius < 15:
-        classification = "Cold"
+    if mark >= 80:
+        grade = "B"
     else:
-        if temperature_celsius < 25:
-            classification = "Moderate"
+        if mark >= 70:
+            grade = "C"
         else:
-            if temperature_celsius < 35:
-                classification = "Warm"
+            if mark >= 60:
+                grade = "D"
             else:
-                classification = "Hot"
+                grade = "F"
 
-# Output the result
-print(f"The temperature is {temperature_celsius:.2f}°C, which is classified as {classification}.")
+# Output the grade
+print(f"The student's grade is {grade}.")

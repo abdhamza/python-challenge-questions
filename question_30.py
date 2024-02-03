@@ -1,26 +1,27 @@
-# 30) Ask the user to create a list of four numbers by entering them one at a time. 
-# After the list is created, ask the user for a number to add to the list, 
-# but they must also specify the position (index) in the list where this 
-# new number should be placed, replacing the existing number at that position. 
-# Print the updated list.
+# 30) Create a program where the user enters five movie names to store in a list. After the list is created, ask the user for a movie name to remove from the list. 
+# Remove the movie by directly specifying its value (not by index, since you haven't learned loops for finding indexes). Print the updated list.
 
-# Ask the user to enter four numbers, one by one
-num1 = int(input("Enter the first number: "))
-num2 = int(input("Enter the second number: "))
-num3 = int(input("Enter the third number: "))
-num4 = int(input("Enter the fourth number: "))
+# Ask the user to enter five movie names, one by one
+print("Enter five movie names:")
+movie1 = input("Movie 1: ")
+movie2 = input("Movie 2: ")
+movie3 = input("Movie 3: ")
+movie4 = input("Movie 4: ")
+movie5 = input("Movie 5: ")
 
-# Create a list of the numbers
-numbers_list = [num1, num2, num3, num4]
+# Create a list of the movie names
+movies_list = [movie1, movie2, movie3, movie4, movie5]
 
-# Ask the user for a new number and the position to insert it
-new_number = int(input("Enter a new number to add to the list: "))
-position = int(input("Specify the position (0-3) where the new number should be placed: "))
+# Ask the user for a movie name to remove from the list
+movie_to_remove = input("Enter the name of the movie you want to remove from the list: ")
 
-# Replace the number at the specified position with the new number
-# Check if the position is within the valid range
-if 0 <= position < len(numbers_list):
-    numbers_list[position] = new_number
-    print("Updated list:", numbers_list)
-else:
-    print("Invalid position. The list has not been updated.")
+# Remove the movie by specifying its value
+# Use a try-except block to handle the case where the movie is not in the list
+try:
+    movies_list.remove(movie_to_remove)
+    print("Updated list:", movies_list)
+except ValueError:
+    print("The movie is not in the list.")
+
+# Print the updated list
+print("Final movie list:", movies_list)

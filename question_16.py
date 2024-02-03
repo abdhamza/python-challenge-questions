@@ -1,8 +1,12 @@
-# 16) Write a Python program that asks the user to enter a number. 
-# The program should then use an if-else statement to print whether the number is even or odd.
+# 16) Ask the user to input two numbers. Use an if-else statement to determine which number is larger, or if they are equal, 
+# and print an appropriate message for each case.
 
-number = int(input("Enter a number: "))
-if number % 2 == 0:
-    print(f"{number} is Even")
+num1 = int(input("Enter the first number: "))
+num2 = int(input("Enter the second number: "))
+
+if num1 > num2:
+    print(f"The larger number is {num1}")
+elif num2 > num1:
+    print(f"The larger number is {num2}")
 else:
-    print(f"{number} is Odd")
+    print("Both numbers are equal")

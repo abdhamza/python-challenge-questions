@@ -1,12 +1,12 @@
-# 17) Ask the user to input two numbers. Use an if-else statement to determine which number is larger, or if they are equal, 
-# and print an appropriate message for each case.
+# 17) Write a program where a user enters a number. 
+# Use an if-else structure to check whether the number is positive, negative, or zero and print the result.
 
-num1 = int(input("Enter the first number: "))
-num2 = int(input("Enter the second number: "))
 
-if num1 > num2:
-    print(f"The larger number is {num1}")
-elif num2 > num1:
-    print(f"The larger number is {num2}")
+number = int(input("Enter a number: "))
+
+if number > 0:
+    print(f"{number} is Positive")
+elif number < 0:
+    print(f"{number} is Negative")
 else:
-    print("Both numbers are equal")
+    print(f"The number is Zero")

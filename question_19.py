@@ -1,10 +1,22 @@
-# 19) Ask the user to input a year. Use an if-else statement to determine if the year is a leap year or not. 
-# A year is a leap year if it is divisible by 4, 
-# except for years which are divisible by 100 unless they are also divisible by 400.
+# 19) Write a Python program that categorizes a person's age into 'Child' (< 13), 'Teen' (13-19), 
+# 'Adult' (20-59), and 'Senior' (60 and above) using only if-else statements (no elif allowed).
 
-year = int(input("Enter a year: "))
+# Input: Age of the person
+age = int(input("Enter your age: "))
 
-if (year % 4 == 0 and year % 100 != 0) or (year % 400 == 0):
-    print(f"{year} is a Leap Year")
+# Using only if-else statements to categorize age
+if age < 0:
+    print("invalid age")
 else:
-    print(f"{year} is not a Leap Year")
+    if age < 13:
+        print("You are a Child.")
+    else:
+        if age < 20:
+            print("You are a Teen.")
+        else:
+            if age < 60:
+                print("You are an Adult.")
+            else:
+                print("You are a Senior.")
+            
+
