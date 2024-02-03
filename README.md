@@ -5,7 +5,130 @@ Welcome to our vibrant learning community! This repository is a treasure trove o
 
 ## What's Inside? 📦
 
-Dive into our neatly organized folders, where each problem has its own space, complete with a well-commented solution. Whether you're revisiting these problems or exploring them for the first time, you'll find clarity and insight in each line of code.
+Dive into our neatly organized python scripts, where each problem has its own space, complete with a well-commented solution. Whether you're revisiting these problems or exploring them for the first time, you'll find clarity and insight in each line of code.
+
+# Python Challenge Questions
+
+Solve the following Python challenges by yourself. If you need help, the solutions are available in this repository. Good luck and have fun coding!
+
+### 1) Swapping Variables
+Write a Program that swaps the values of two variables.
+
+### 2) Sphere Calculations
+Write a program that asks the user for the diameter of a sphere and then computes the volume and surface area. Use the value of 𝜋, i.e., 3.142, as a constant.
+
+### 3) Basic Arithmetic Operations
+Write a program that takes three numbers `x`, `y`, `z` as input and calculates various arithmetic operations as mentioned below:
+- `x+y+z`
+- `x-y-z`
+- `y-x-z`
+- `z-x-y`
+- `x*y*z`
+- `x/y*z`
+- `x*y/z`
+- `x/y/z`
+- `x%y`
+- `y%z`
+- `z%x`
+- `z**y`
+- `z//y//x`
+- `y//x`
+- `z//x`
+
+### 4) Arithmetic Operations on Given Variables
+Given two variables `a = 10` and `b = 5`, perform the following operations:
+- Addition of `a` and `b` and store it in `a`
+- Subtraction of `b` from `a` and store it in `b`
+- Multiplication of `a` and `b` and store it in `a`
+- Division of `a` by `b` and store it in `a`
+- Exponentiation (`a` to the power of `b`)
+
+### 5) Even Number Checker
+Write a program that takes an input of `x` and prints `True` if `x` is even.
+
+### 6) Multiples Checker
+Write a program that takes input of `x` and `y` and prints `True` if `x` is a multiple of `y`.
+
+### 7) String Equality Checker
+Write a program that compares two strings entered by the user (`str1` and `str2`) and prints whether they are equal or not.
+
+### 8) Greater Than Comparison
+Given two variables entered by the user (`a` and `b`), write a program that prints `True` if `a` is greater than `b`, else print `False`.
+
+### 9) Variable Comparisons
+Given three variables (`num1`, `num2`, and `num3`) entered by the user, write a program that checks if:
+- `num1 < num2` and `num2 >= num3`
+- `num1 > num2` or `num1 > num3`
+- `num2 >= num1` and `num1 != num3`
+
+### 10) Movie Ticket Purchase
+You have 100 rupees to buy tickets for a movie. Each ticket costs 12 rupees. Write a Python program to calculate how many tickets you can buy.
+
+### 11) Cricket Game Scores
+In the last three cricket games, Babar Azam scored 22, 28, and 35 runs. Write a Python program to calculate his average score per game.
+
+### 12) Garden Fencing
+You're building a rectangular garden that's 20 feet long and 15 feet wide. Calculate the total length of fencing needed to enclose the garden. **Note:** Do not use if-else statements; only use operators and the print function.
+
+### 13) Pizza Party Calculation
+If each pizza can serve 3 people, write a Python program to find out how many pizzas are needed for a party of 27 people.
+
+### 14) Fuel Cost Calculation
+If your bike uses 3 liters of fuel per 100 km and fuel costs 262 rupees per liter, how much will the fuel cost for a 400 km trip? Write a Python code for that.
+
+### 15) Even or Odd
+Write a Python program that asks the user to enter a number. The program should then use an if-else statement to print whether the number is even or odd.
+
+### 16) Comparing Numbers
+Ask the user to input two numbers. Use an if-else statement to determine which number is larger, or if they are equal, and print an appropriate message for each case.
+
+### 17) Positive, Negative, or Zero
+Write a program where a user enters a number. Use an if-else structure to check whether the number is positive, negative, or zero and print the result.
+
+### 18) Leap Year Checker
+Ask the user to input a year. Use an if-else statement to determine if the year is a leap year or not. A year is a leap year if it is divisible by 4, except for years which are divisible by 100 unless they are also divisible by 400.
+
+### 19) Age Categorization
+Write a Python program that categorizes a person's age into 'Child' (< 13), 'Teen' (13-19), 'Adult' (20-59), and 'Senior' (60 and above) using only if-else statements (no elif allowed).
+
+### 20) Traffic Light Simulator
+Write a program that simulates a traffic light. The user enters a color ('red', 'yellow', 'green'), and the program prints 'Stop' for red, 'Caution' for yellow, and 'Go' for green using only if-else statements.
+
+### 21) Temperature Converter and Classifier
+Write a program that converts a temperature from Fahrenheit to Celsius. Classify the temperature as 'Freezing' (< 0°C), 'Cold' (0-15°C), 'Moderate' (15-25°C), 'Warm' (25-35°C), and 'Hot' (>35°C) using only if-else statements.
+
+### 22) Grading System
+Write a Python program that categorizes a student's mark (0-100) into 'A' (90-100), 'B' (80-89), 'C' (70-79), 'D' (60-69), and 'F' (below 60) using only if-else statements.
+
+### 23) Favorite Fruits List
+Create a list of your five favorite fruits. Use the append() method to add another fruit to the list, and then use the remove() method to remove one fruit from the list. Print the final list.
+
+### 24) Movie List
+Create a list of your 7 favorite movies and print the third movie on the list.
+
+### 25) Combining Lists
+Combine two lists into a single list without using the + operator.
+
+### 26) Color List Modification
+Given a list of colors: ["red", "blue", "green", "yellow", "purple"], write a Python script that inserts "orange" after "green" and removes "yellow". Print the final list of colors.
+
+### 27) Pet Name Removal
+Create a list of pet names. Write a script that asks the user for a pet name and removes that pet name from the list if it exists. If the pet name does not exist in the list, print an appropriate message.
+
+### 28) Favorite Colors
+Write a program that asks the user to enter three favorite colors, one by one. Store these colors in a list. Then, print the first and last color entered.
+
+### 29) List Modification with User Input
+Ask the user to create a list of four numbers by entering them one at a time. After the list is created, ask the user for a number to add to the list, but they must also specify the position (index) in the list where this new number should be placed, replacing the existing number at that position. Print the updated list.
+
+### 30) Movie List Management
+Create a program where the user enters five movie names to store in a list. After the list is created, ask the user for a movie name to remove from the list. Remove the movie by directly specifying its value (not by index, since you haven't learned loops for finding indexes). Print the updated list.
+
+### 31) Expanding a Simple List
+Write a program that starts with a list of two items: `["Hello", "World"]`. Ask the user to add three more words to the list, entering them one at a time. After adding each word, print the current state of the list.
+
+### 32) Hobbies and Foods Nested List
+Ask the user to enter their top three hobbies and then their top three foods. Store these in two separate lists. Then, create a nested list that contains both lists and print it. Finally, ask the user to select a number: `1` for hobbies or `2` for foods. Based on their choice, print the corresponding list from the nested list.
 
 # Beginner Level Python Course Objectives 🎯
 
