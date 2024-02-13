@@ -154,6 +154,21 @@ Ask the user to input a string and write a Python program to count how many vowe
 ### 40) Sentence Reversal Magic
 Write a Python program that takes a sentence from the user and reverses the order of the words in the sentence. Use string methods to accomplish this. For example, if the input is `"Python is easy to learn"`, the output should be `"learn to easy is Python".`
 
+### 41) Number Reversal Challenge
+Write a Python program that asks the user to enter a number and then reverses that number using a while loop. For example, if the user enters 12345, the program should print 54321.
+
+### 42) The Classic Number Guessing Game
+Implement a "Guess the Number" game in Python where the target number is set to a fixed value within the program (for example, 42). The user has to guess this fixed number. The program should provide hints like "Too high" or "Too low" based on the user's guesses. Use a while loop to keep the game going until the correct guess is made. The game ends when the user correctly guesses the number, and the program should congratulate the user.
+
+### 43) Secure Login System Simulation
+Write a Python program that simulates a login system where the user has up to 3 attempts to enter the correct password. The program should ask for input each time and print "Access granted" if the correct password is entered, or "Access denied. Attempts exceeded" if the user fails all attempts. Assume the correct password is a fixed string in your program.
+
+### 44) Digit Counter Deluxe
+Write a program that takes an integer input from the user and uses a while loop to count how many digits the number has. For instance, if the user inputs 75869, the program should print that the number has 5 digits.
+
+### 45) Guess the Number with a Twist
+Modify the classic "Guess the Number" (question 42) game by setting a limit on how close the guess must be to the actual number. The program picks a fixed number (say, 50), and the user has unlimited guesses, but they must guess the number exactly or within a range of +/- 5. The program should give feedback ("Too high", "Too low", or "Close enough") until the user guesses correctly or within the allowed range.
+
 
 # Beginner Level Python Course Objectives 🎯
 
