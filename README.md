@@ -83,34 +83,34 @@ Write a Python program that asks the user to enter a number. The program should 
 Ask the user to input two numbers. Use an if-else statement to determine which number is larger, or if they are equal, and print an appropriate message for each case.
 
 ### 17) Positive, Negative, or Zero
-Write a program where a user enters a number. Use an if-else structure to check whether the number is positive, negative, or zero and print the result.
+Write a program where a user enters a number. Use an if-else structure to check whether the number is `positive, negative, or zero` and print the result.
 
 ### 18) Leap Year Checker
-Ask the user to input a year. Use an if-else statement to determine if the year is a leap year or not. A year is a leap year if it is divisible by 4, except for years which are divisible by 100 unless they are also divisible by 400.
+Ask the user to input a year. Use an if-else statement to determine if the year is a leap year or not. `A year is a leap year if it is divisible by 4, except for years which are divisible by 100 unless they are also divisible by 400.`
 
 ### 19) Age Categorization
-Write a Python program that categorizes a person's age into 'Child' (< 13), 'Teen' (13-19), 'Adult' (20-59), and 'Senior' (60 and above) using only if-else statements (no elif allowed).
+Write a Python program that categorizes a person's age into `'Child' (< 13)`, `'Teen' (13-19)`, `'Adult' (20-59)`, and `'Senior' (60 and above)` using only if-else statements (no elif allowed).
 
 ### 20) Traffic Light Simulator
-Write a program that simulates a traffic light. The user enters a color ('red', 'yellow', 'green'), and the program prints 'Stop' for red, 'Caution' for yellow, and 'Go' for green using only if-else statements.
+Write a program that simulates a traffic light. The user enters a color `('red', 'yellow', 'green')`, and the program prints `'Stop'` for red, `'Caution'` for yellow, and `'Go'` for green using only if-else statements.
 
 ### 21) Temperature Converter and Classifier
-Write a program that converts a temperature from Fahrenheit to Celsius. Classify the temperature as 'Freezing' (< 0°C), 'Cold' (0-15°C), 'Moderate' (15-25°C), 'Warm' (25-35°C), and 'Hot' (>35°C) using only if-else statements.
+Write a program that converts a temperature from Fahrenheit to Celsius. Classify the temperature as `'Freezing' (< 0°C)`, `'Cold' (0-15°C)`, `'Moderate' (15-25°C)`, `'Warm' (25-35°C)`, and `'Hot' (>35°C)` using only if-else statements.
 
 ### 22) Grading System
-Write a Python program that categorizes a student's mark (0-100) into 'A' (90-100), 'B' (80-89), 'C' (70-79), 'D' (60-69), and 'F' (below 60) using only if-else statements.
+Write a Python program that categorizes a student's mark (0-100) into `'A' (90-100)`, `'B' (80-89)`, `'C' (70-79)`, `'D' (60-69)`, and `'F' (below 60)` using only if-else statements.
 
 ### 23) Favorite Fruits List
-Create a list of your five favorite fruits. Use the append() method to add another fruit to the list, and then use the remove() method to remove one fruit from the list. Print the final list.
+Create a list of your five favorite fruits. Use the `append()` method to add another fruit to the list, and then use the `remove()` method to remove one fruit from the list. Print the final list.
 
 ### 24) Movie List
-Create a list of your 7 favorite movies and print the third movie on the list.
+Create a list of your `7 favorite movies` and print the third movie on the list.
 
 ### 25) Combining Lists
-Combine two lists into a single list without using the + operator.
+Combine two lists into a `single list` without using the `+` operator.
 
 ### 26) Color List Modification
-Given a list of colors: ["red", "blue", "green", "yellow", "purple"], write a Python script that inserts "orange" after "green" and removes "yellow". Print the final list of colors.
+Given a list of colors: `["red", "blue", "green", "yellow", "purple"]`, write a Python script that inserts "orange" after "green" and removes "yellow". Print the final list of colors.
 
 ### 27) Pet Name Removal
 Create a list of pet names. Write a script that asks the user for a pet name and removes that pet name from the list if it exists. If the pet name does not exist in the list, print an appropriate message.
