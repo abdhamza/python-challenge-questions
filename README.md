@@ -137,22 +137,22 @@ Consider the string `text = "Python programming is fun`, isn't it?". Use string 
 Given a string phrase = "PyTHoN iS AwEsOmE", convert the string so that the first letter is `uppercase` and the rest of the characters are `lowercase`. What is the resulting string?
 
 ### 35) Parsing and Formatting Key-Value Data
-You have a string data = "name:John Doe;age:30;profession:Software Engineer". Split this string into individual components based on the semicolon (;) and then create a list where each element is a key-value pair (as a string) derived from the components. Finally, join these key-value pairs using a comma and a space. What is the final string?
+You have a string data = `"name:John Doe;age:30;profession:Software Engineer"`. Split this string into individual components based on the semicolon `(;)` and then create a list where each element is a key-value pair (as a string) derived from the components. Finally, join these key-value pairs using a comma and a space. What is the final string?
 
 ### 36) Substring Occurrence Counting
-Given a multiline string paragraph = """Python is an interpreted, high-level and general-purpose programming language. Python's design philosophy emphasizes code readability with its notable use of significant whitespace.""", count how many times the substring 'Python' (case-sensitive) appears in paragraph.
+Given a multiline string paragraph = `"""Python is an interpreted, high-level and general-purpose programming language. Python's design philosophy emphasizes code readability with its notable use of significant whitespace."""`, count how many times the substring 'Python' (case-sensitive) appears in paragraph.
 
 ### 37) Palindrome Checker
-Ask the user to input a word, and write a Python program to check if the word is a palindrome. A palindrome is a word that reads the same backward as forward, e.g., "racecar". Ignore case sensitivity and spaces.
+Ask the user to input a word, and write a Python program to check if the word is a palindrome. `A palindrome is a word that reads the same backward as forward, e.g., "racecar"`. Ignore case sensitivity and spaces.
 
 ### 38) Email Domain Extractor
-Write a Python program that asks the user for their email address and then extracts and prints the domain of the email address. For example, if the input is "user@example.com", the output should be "example.com".
+Write a Python program that asks the user for their email address and then extracts and prints the domain of the email address. For example, if the input is `"user@example.com"`, the output should be `"example.com"`.
 
 ### 39) Vowel Count in a String
-Ask the user to input a string and write a Python program to count how many vowels (a, e, i, o, u) are in the string. Use string methods and consider both uppercase and lowercase vowels. For example, if the input is "Hello World", the output should be 3.
+Ask the user to input a string and write a Python program to count how many vowels `(a, e, i, o, u)` are in the string. Use string methods and consider both uppercase and lowercase vowels. For example, if the input is `"Hello World"`, the output should be `3`.
 
 ### 40) Sentence Reversal Magic
-Write a Python program that takes a sentence from the user and reverses the order of the words in the sentence. Use string methods to accomplish this. For example, if the input is "Python is easy to learn", the output should be "learn to easy is Python".
+Write a Python program that takes a sentence from the user and reverses the order of the words in the sentence. Use string methods to accomplish this. For example, if the input is `"Python is easy to learn"`, the output should be `"learn to easy is Python".`
 
 
 # Beginner Level Python Course Objectives 🎯
