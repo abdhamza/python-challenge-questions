@@ -169,6 +169,15 @@ Write a program that takes an integer input from the user and uses a while loop 
 ### 45) Guess the Number with a Twist
 Modify the classic "Guess the Number" (Problem 42) game by setting a limit on how close the guess must be to the actual number. The program picks a fixed number (say, 50), and the user has unlimited guesses, but they must guess the number exactly or within a range of +/- 5. The program should give feedback `("Too high", "Too low", or "Close enough")` until the user guesses correctly or within the allowed range.
 
+### 46) Prime Number Checker
+Write a program that asks the user to enter a number and uses a while loop to determine if it's a prime number.
+
+### 47) Reverse a String
+Implement a program that asks the user for a string and uses a while loop to reverse the string without using string slicing or reversed methods.
+
+### 48) Factorial Finder
+Write a program that asks the user to enter a non-negative integer and uses a while loop to calculate its factorial.
+
 
 # Beginner Level Python Course Objectives 🎯
 
